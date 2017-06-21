@@ -1,4 +1,41 @@
 ﻿body {
+    text-align:center
+}
+
+nav{
+    display: block;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav ul li a{
+     display: block;
+     padding: 0 10px;
+     text-decoration: none;
+}
+
+#main-header{
+    background: #333;
+    color: white;
+    height: 80px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+#main-header a{
+    color: white;
 }
 
 #portada-img{

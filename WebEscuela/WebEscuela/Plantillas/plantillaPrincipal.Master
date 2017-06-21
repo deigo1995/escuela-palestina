@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
     <title>Escuela Palestina</title>
-    <link type="text/css" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="../css/PrincipalCss.css" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -18,18 +18,26 @@
         </asp:ContentPlaceHolder>
     </div>
 
-    <div id="portada-img">
+    <header id="main-header">
+            <div id="portada-img">
 
-    </div>
+            </div>
 
-        <ul>
-                <li>Quienes Somos</li>
-                <li>Mision</li>
-                <li>Vision</li>
-                <li>Personal Academico</li>
-                <li>Proyecto Convivencia Escolar</li>
-                <li>Proyecto Educacional Institucional</li>
-         </ul>
+            <nav>
+                <ul>
+                      <li><a href="#">Quienes Somos</a></li>
+                      <li><a href="#">Mision</a></li>
+                      <li><a href="#">Vision</a></li>
+                      <li><a href="#">Personal Academico</a></li>
+                      <li><a href="#">Proyecto Convivencia Escolar</a></li>
+                      <li><a href="#">Proyecto Educacional Institucional</a></li>
+                 </ul>
+            </nav>
+    </header>
+
+    
+         
+        
     
 </body>
 </html>
