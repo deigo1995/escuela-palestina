@@ -66,7 +66,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\PrincipalCss.css" />
     <Content Include="packages.config" />
+    <Content Include="Paginas\Principal\Index.aspx" />
     <Content Include="Plantillas\plantillaPrincipal.Master" />
     <Content Include="Plantillas\plantillaLogin.Master" />
     <Content Include="Plantillas\plantillaPanel.Master" />
@@ -81,6 +83,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Paginas\Principal\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Principal\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Plantillas\plantillaLogin.Master.cs">
       <DependentUpon>plantillaLogin.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -105,7 +114,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="css\" />
+    <Folder Include="Paginas\Login\" />
+    <Folder Include="Paginas\Paneles\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
