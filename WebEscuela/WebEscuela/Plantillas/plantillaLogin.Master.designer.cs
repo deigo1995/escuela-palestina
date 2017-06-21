@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebEscuela
+namespace WebEscuela.Plantillas
 {
 
 
-    public partial class Site1
+    public partial class plantillaLogin
     {
 
         /// <summary>
