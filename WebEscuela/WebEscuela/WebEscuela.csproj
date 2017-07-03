@@ -70,6 +70,8 @@
     <Content Include="css\style.css" />
     <Content Include="packages.config" />
     <Content Include="Paginas\Principal\Index.aspx" />
+    <Content Include="src\Entrada.JPG" />
+    <Content Include="src\image.png" />
     <Content Include="Plantillas\plantillaPrincipal.Master" />
     <Content Include="Plantillas\plantillaLogin.Master" />
     <Content Include="Plantillas\plantillaPanel.Master" />

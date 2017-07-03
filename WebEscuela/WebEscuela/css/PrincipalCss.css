@@ -140,3 +140,21 @@ body {
     padding: 20px;
     border-top: 2px solid #999999;
 }
+
+
+.button {
+    background: #7f8c8d;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px #373c3c;
+}
+
+.button span {
+    margin-right: 10px;
+}

@@ -9,6 +9,7 @@
     <title>Escuela Palestina</title>
     <link type="text/css" rel="stylesheet" href="../css/PrincipalCss.css" />
     <link type="text/css" rel="stylesheet" href="../css/style.css"/>
+    <link rel="icon" type="image/png" href="../src/image.png" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -48,12 +49,16 @@
             
 
             <section id="seccion">
-                Nuestra comunidad educativa ofrece la oportunidad de educarte en un ambiente grato en el cual podrás desarrollar tus habilidades cognitivas, artísticas y deportivas mediante talleres y clases personalizadas. Contamos con un grupo humano idóneo y dependencias muy bien implementadas: biblioteca, dos laboratorios de computación, laboratorio de ciencias, multicancha, grupo de integración, comedor, entre otros.
+                <span class="title">BIENVENID@ A NUESTRO PORTAL</span>
+                <br />
+                <span class="msg">Nuestra comunidad educativa ofrece la oportunidad de educarte en un ambiente grato en el cual podrás desarrollar tus habilidades cognitivas, artísticas y deportivas mediante talleres y clases personalizadas. Contamos con un grupo humano idóneo y dependencias muy bien implementadas: biblioteca, dos laboratorios de computación, laboratorio de ciencias, multicancha, grupo de integración, comedor, entre otros.</span>
+
+
             </section>
 
             <aside id="columna">
-                <blockquote><a href="#">Acceso Napzis</a></blockquote>
-                <blockquote><a href="#">Acceso Personal</a></blockquote>
+                <blockquote><a href="#" class="button"><span class="icon-database"></span>Acceso Napzis</a></blockquote>
+                <blockquote><a href="#" class="button"><span class="icon-user-tie"></span>Acceso Personal</a></blockquote>
             </aside>
 
             <footer id="pie">
