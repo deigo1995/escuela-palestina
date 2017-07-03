@@ -8,36 +8,57 @@
 
     <title>Escuela Palestina</title>
     <link type="text/css" rel="stylesheet" href="../css/PrincipalCss.css" />
+    <link type="text/css" rel="stylesheet" href="../css/style.css"/>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
+
 <body>
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        </asp:ContentPlaceHolder>
-    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
 
-    <header id="main-header">
-            <div id="portada-img">
-
-            </div>
-
-            <nav>
+    <div id="agrupar">
+        <header id="cabecera">            
+            <nav id="menu">
                 <ul>
-                      <li><a href="#">Quienes Somos</a></li>
-                      <li><a href="#">Mision</a></li>
-                      <li><a href="#">Vision</a></li>
-                      <li><a href="#">Personal Academico</a></li>
-                      <li><a href="#">Proyecto Convivencia Escolar</a></li>
-                      <li><a href="#">Proyecto Educacional Institucional</a></li>
-                 </ul>
+                    <li><a href="#"><span class=""><i class="icon icon-office"></i></span>Quienes Somos</a></li>
+                    <li><a href="#"><span class=""><i class="icon icon-eye"></i></span>Vision</a></li>
+                    <li><a href="#"><span><i class="icon icon-bullhorn"></i></span>Mision</a></li>
+                    <li><a href="#"><span><i class="icon icon-file-zip"></i></span>Proyectos</a>
+                        <ul>
+                            <li><a href="#">Proyecto Educacional Institucional</a></li>
+                            <li><a href="#">Proyecto Convivencia Escolar</a></li>
+                            <li><a href="#">Equipo Docente</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><span><i class="icon icon-users"></i></span>Personal</a>
+                        <ul>
+                            <li><a href="#">Director</a></li>
+                            <li><a href="#">Plan Docente</a></li>
+                            <li><a href="#">Unidad Pedagogica</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><span class=""><i class="icon icon-file-picture"></i></span>Galeria</a></li>
+                </ul>
             </nav>
-    </header>
 
-    
-         
-        
-    
+        </header>
+
+            
+
+            <section id="seccion">
+                Nuestra comunidad educativa ofrece la oportunidad de educarte en un ambiente grato en el cual podrás desarrollar tus habilidades cognitivas, artísticas y deportivas mediante talleres y clases personalizadas. Contamos con un grupo humano idóneo y dependencias muy bien implementadas: biblioteca, dos laboratorios de computación, laboratorio de ciencias, multicancha, grupo de integración, comedor, entre otros.
+            </section>
+
+            <aside id="columna">
+                <blockquote><a href="#">Acceso Napzis</a></blockquote>
+                <blockquote><a href="#">Acceso Personal</a></blockquote>
+            </aside>
+
+            <footer id="pie">
+
+            </footer>
+    </div>
 </body>
 </html>

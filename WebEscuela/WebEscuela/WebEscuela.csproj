@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\PrincipalCss.css" />
+    <Content Include="css\style.css" />
     <Content Include="packages.config" />
     <Content Include="Paginas\Principal\Index.aspx" />
     <Content Include="Plantillas\plantillaPrincipal.Master" />
@@ -80,6 +81,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="src\bg_content.png" />
+    <Content Include="src\bg_menu.png" />
+    <Content Include="src\img-body-bg.gif" />
+    <Content Include="src\menu_line.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -114,6 +119,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="css\fonts\" />
     <Folder Include="Paginas\Login\" />
     <Folder Include="Paginas\Paneles\" />
   </ItemGroup>
