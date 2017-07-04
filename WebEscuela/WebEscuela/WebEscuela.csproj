@@ -70,6 +70,9 @@
     <Content Include="css\style.css" />
     <Content Include="packages.config" />
     <Content Include="Paginas\Principal\Index.aspx" />
+    <Content Include="Paginas\Principal\Mision.aspx" />
+    <Content Include="Paginas\Principal\PCE.aspx" />
+    <Content Include="Paginas\Principal\PEI.aspx" />
     <Content Include="Paginas\Principal\QuienesSomos.aspx" />
     <Content Include="Paginas\Principal\Vision.aspx" />
     <Content Include="src\background-title.png" />
@@ -96,6 +99,27 @@
     </Compile>
     <Compile Include="Paginas\Principal\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Principal\Mision.aspx.cs">
+      <DependentUpon>Mision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Principal\Mision.aspx.designer.cs">
+      <DependentUpon>Mision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Principal\PCE.aspx.cs">
+      <DependentUpon>PCE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Principal\PCE.aspx.designer.cs">
+      <DependentUpon>PCE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Principal\PEI.aspx.cs">
+      <DependentUpon>PEI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Principal\PEI.aspx.designer.cs">
+      <DependentUpon>PEI.aspx</DependentUpon>
     </Compile>
     <Compile Include="Paginas\Principal\QuienesSomos.aspx.cs">
       <DependentUpon>QuienesSomos.aspx</DependentUpon>

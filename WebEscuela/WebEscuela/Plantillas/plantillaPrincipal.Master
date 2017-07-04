@@ -21,13 +21,13 @@
         <header id="cabecera">            
             <nav id="menu">
                 <ul>
-                    <li><a href="#"><span class=""><i class="icon icon-office"></i></span>Quienes Somos</a></li>
-                    <li><a href="#"><span class=""><i class="icon icon-eye"></i></span>Vision</a></li>
-                    <li><a href="#"><span><i class="icon icon-bullhorn"></i></span>Mision</a></li>
+                    <li><a href="../Principal/QuienesSomos.aspx"><span class=""><i class="icon icon-office"></i></span>Quienes Somos</a></li>
+                    <li><a href="../Principal/Vision.aspx"><span class=""><i class="icon icon-eye"></i></span>Vision</a></li>
+                    <li><a href="../Principal/Mision.aspx"><span><i class="icon icon-bullhorn"></i></span>Mision</a></li>
                     <li><a href="#"><span><i class="icon icon-file-zip"></i></span>Proyectos</a>
                         <ul>
-                            <li><a href="#">Proyecto Educacional Institucional</a></li>
-                            <li><a href="#">Proyecto Convivencia Escolar</a></li>
+                            <li><a href="../Principal/PEI.aspx">Proyecto Educacional Institucional</a></li>
+                            <li><a href="../Principal/PCE.aspx">Proyecto Convivencia Escolar</a></li>
                             <li><a href="#">Equipo Docente</a></li>
                         </ul>
                     </li>
