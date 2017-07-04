@@ -66,9 +66,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\PanelCss.css" />
     <Content Include="css\PrincipalCss.css" />
     <Content Include="css\style.css" />
     <Content Include="packages.config" />
+    <Content Include="Paginas\Paneles\testPanel.aspx" />
     <Content Include="Paginas\Principal\Index.aspx" />
     <Content Include="Paginas\Principal\Mision.aspx" />
     <Content Include="Paginas\Principal\PCE.aspx" />
@@ -94,6 +96,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\Datos.cs" />
+    <Compile Include="Paginas\Paneles\testPanel.aspx.cs">
+      <DependentUpon>testPanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Paneles\testPanel.aspx.designer.cs">
+      <DependentUpon>testPanel.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Paginas\Principal\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -162,7 +171,6 @@
   <ItemGroup>
     <Folder Include="css\fonts\" />
     <Folder Include="Paginas\Login\" />
-    <Folder Include="Paginas\Paneles\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

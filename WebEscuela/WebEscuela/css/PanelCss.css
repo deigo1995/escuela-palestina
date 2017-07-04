@@ -1,0 +1,12 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+#columna {
+    float: left;
+}
+
+#cuerpo {
+    float: left;
+}
