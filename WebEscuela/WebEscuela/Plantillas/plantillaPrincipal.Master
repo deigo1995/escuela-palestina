@@ -6,19 +6,17 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-    <title>Escuela Palestina</title>
+    
     <link type="text/css" rel="stylesheet" href="../css/PrincipalCss.css" />
     <link type="text/css" rel="stylesheet" href="../css/style.css"/>
     <link rel="icon" type="image/png" href="../src/image.png" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
+        <title></title>
     </asp:ContentPlaceHolder>
 </head>
 
 <body>
-    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-    </asp:ContentPlaceHolder>
-
     <div id="agrupar">
         <header id="cabecera">            
             <nav id="menu">
@@ -44,21 +42,40 @@
                 </ul>
             </nav>
 
+             <div class="portada">
+                 <a href="../Principal/Index.aspx" title="Pagina Principal"><img src="https://u.jimcdn.com/cms/o/s8ec25de4640aaf9b/emotion/crop/header.jpg?t=1391724656"/></a>
+            </div>          
+
         </header>
 
-            
 
             <section id="seccion">
-                <span class="title">BIENVENID@ A NUESTRO PORTAL</span>
-                <br />
-                <span class="msg">Nuestra comunidad educativa ofrece la oportunidad de educarte en un ambiente grato en el cual podrás desarrollar tus habilidades cognitivas, artísticas y deportivas mediante talleres y clases personalizadas. Contamos con un grupo humano idóneo y dependencias muy bien implementadas: biblioteca, dos laboratorios de computación, laboratorio de ciencias, multicancha, grupo de integración, comedor, entre otros.</span>
 
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                 </asp:ContentPlaceHolder>
 
             </section>
 
             <aside id="columna">
-                <blockquote><a href="#" class="button"><span class="icon-database"></span>Acceso Napzis</a></blockquote>
-                <blockquote><a href="#" class="button"><span class="icon-user-tie"></span>Acceso Personal</a></blockquote>
+                <div id="subcolumna">
+                      <blockquote><a href="#" class="button"><span class="icon-database"></span>Acceso Napzis</a></blockquote>
+                      <blockquote><a href="#" class="button"><span class="icon-user-tie"></span>Acceso Personal</a></blockquote>
+                </div>
+                
+                <div id="fb-root"></div>
+                    <script>(function(d, s, id) {
+                      var js, fjs = d.getElementsByTagName(s)[0];
+                      if (d.getElementById(id)) return;
+                      js = d.createElement(s); js.id = id;
+                      js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.9";
+                      fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+
+                <br />
+                <div class="facebook">
+                    <div class="fb-page" data-href="https://www.facebook.com/Escuela-Palestina-Chill%C3%A1n-1513430112314990/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Escuela-Palestina-Chill%C3%A1n-1513430112314990/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Escuela-Palestina-Chill%C3%A1n-1513430112314990/">Escuela Palestina Chillán</a></blockquote></div>
+                </div>
             </aside>
 
             <footer id="pie">

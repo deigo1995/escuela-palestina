@@ -70,7 +70,10 @@
     <Content Include="css\style.css" />
     <Content Include="packages.config" />
     <Content Include="Paginas\Principal\Index.aspx" />
-    <Content Include="src\Entrada.JPG" />
+    <Content Include="Paginas\Principal\QuienesSomos.aspx" />
+    <Content Include="Paginas\Principal\Vision.aspx" />
+    <Content Include="src\background-title.png" />
+    <Content Include="src\header.jpg" />
     <Content Include="src\image.png" />
     <Content Include="Plantillas\plantillaPrincipal.Master" />
     <Content Include="Plantillas\plantillaLogin.Master" />
@@ -83,10 +86,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="src\bg_content.png" />
-    <Content Include="src\bg_menu.png" />
     <Content Include="src\img-body-bg.gif" />
-    <Content Include="src\menu_line.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -96,6 +96,20 @@
     </Compile>
     <Compile Include="Paginas\Principal\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Principal\QuienesSomos.aspx.cs">
+      <DependentUpon>QuienesSomos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Principal\QuienesSomos.aspx.designer.cs">
+      <DependentUpon>QuienesSomos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Principal\Vision.aspx.cs">
+      <DependentUpon>Vision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Principal\Vision.aspx.designer.cs">
+      <DependentUpon>Vision.aspx</DependentUpon>
     </Compile>
     <Compile Include="Plantillas\plantillaLogin.Master.cs">
       <DependentUpon>plantillaLogin.Master</DependentUpon>

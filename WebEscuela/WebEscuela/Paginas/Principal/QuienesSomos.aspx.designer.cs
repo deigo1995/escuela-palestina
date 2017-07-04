@@ -10,6 +10,6 @@
 namespace WebEscuela.Paginas.Principal {
     
     
-    public partial class Index {
+    public partial class QuienesSomos {
     }
 }
