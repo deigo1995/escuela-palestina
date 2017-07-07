@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace WebEscuela.Paginas.Paneles
 {
-    public partial class testPanel : System.Web.UI.Page
+    public partial class Docente : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

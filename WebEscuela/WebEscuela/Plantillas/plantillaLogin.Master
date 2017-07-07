@@ -5,12 +5,36 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Escuela Palestina | Iniccio de Sesion</title>
-
+    <title>Escuela Palestina | Inicio de Sesion</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
+        
     </asp:ContentPlaceHolder>
+     <!-- Bootstrap 3.3.5 -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../css/AdminLTE.min.css"/>
+
 </head>
-<body>
+<body class="hold-transition login-page">
+
+    <div class="login-box">
+
+        <asp:ContentPlaceHolder runat="server" ID="ContenidoTitulo">
+
+        </asp:ContentPlaceHolder>
+
+        <div class="login-box-body">
+            <p class="login-box-msg">Ingrese sus Credenciales para Acceder</p>
+            <asp:ContentPlaceHolder ID="login" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+
     
 </body>
 </html>

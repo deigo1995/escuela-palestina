@@ -66,11 +66,35 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\PanelCss.css" />
+    <Content Include="App_Data\Escuela.mdf" />
+    <Content Include="App_Data\Escuela_log.ldf">
+      <DependentUpon>Escuela.mdf</DependentUpon>
+    </Content>
+    <Content Include="assets\icons\mCSB_buttons.png" />
+    <Content Include="assets\img\avatar.jpg" />
+    <Content Include="assets\img\loginFont.jpg" />
+    <Content Include="assets\img\sideBar-font.jpg" />
+    <Content Include="css\AdminLTE.min.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\owl.carousel.css" />
     <Content Include="css\PrincipalCss.css" />
-    <Content Include="css\style.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\ionicons.svg" />
+    <Content Include="js\jquery-1.10.2.min.js" />
+    <Content Include="js\jquery-min.ui.js" />
+    <Content Include="js\jquery.easing.min.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.mixitup.min.js" />
+    <Content Include="js\owl.carousel.js" />
+    <Content Include="js\responsive-nav.js" />
     <Content Include="packages.config" />
-    <Content Include="Paginas\Paneles\testPanel.aspx" />
+    <Content Include="Paginas\Login\LoginNa.aspx" />
+    <Content Include="Paginas\Login\LoginPE.aspx" />
+    <Content Include="Paginas\Paneles\Apoderados.aspx" />
+    <Content Include="Paginas\Paneles\Director.aspx" />
+    <Content Include="Paginas\Paneles\Docente.aspx" />
     <Content Include="Paginas\Principal\Index.aspx" />
     <Content Include="Paginas\Principal\Mision.aspx" />
     <Content Include="Paginas\Principal\PCE.aspx" />
@@ -83,6 +107,18 @@
     <Content Include="Plantillas\plantillaPrincipal.Master" />
     <Content Include="Plantillas\plantillaLogin.Master" />
     <Content Include="Plantillas\plantillaPanel.Master" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\ionicons.eot" />
+    <Content Include="fonts\ionicons.ttf" />
+    <Content Include="fonts\ionicons.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -96,12 +132,40 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\Datos.cs" />
-    <Compile Include="Paginas\Paneles\testPanel.aspx.cs">
-      <DependentUpon>testPanel.aspx</DependentUpon>
+    <Compile Include="Paginas\Login\LoginNa.aspx.cs">
+      <DependentUpon>LoginNa.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Paginas\Paneles\testPanel.aspx.designer.cs">
-      <DependentUpon>testPanel.aspx</DependentUpon>
+    <Compile Include="Paginas\Login\LoginNa.aspx.designer.cs">
+      <DependentUpon>LoginNa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Login\LoginPE.aspx.cs">
+      <DependentUpon>LoginPE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Login\LoginPE.aspx.designer.cs">
+      <DependentUpon>LoginPE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Paneles\Apoderados.aspx.cs">
+      <DependentUpon>Apoderados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Paneles\Apoderados.aspx.designer.cs">
+      <DependentUpon>Apoderados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Paneles\Director.aspx.cs">
+      <DependentUpon>Director.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Paneles\Director.aspx.designer.cs">
+      <DependentUpon>Director.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Paneles\Docente.aspx.cs">
+      <DependentUpon>Docente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Paneles\Docente.aspx.designer.cs">
+      <DependentUpon>Docente.aspx</DependentUpon>
     </Compile>
     <Compile Include="Paginas\Principal\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
@@ -170,7 +234,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="css\fonts\" />
-    <Folder Include="Paginas\Login\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

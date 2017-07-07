@@ -10,23 +10,38 @@
         <title></title>
     </asp:ContentPlaceHolder>
 
-    <link rel="stylesheet" href="../css/PanelCss.css"/>
+    <link rel="stylesheet" href="../css/main.css"/>
+    <link rel="stylesheet" href="../css/bootstrap-material-design.min.css"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>    
+    <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.css"/>
+    <link rel="stylesheet" href="../css/material-design-iconic-font.min.css"/>
+    <link rel="stylesheet" href="../css/ripples.min.css"/>
+    <link rel="stylesheet" href="../css/sweetalert2.css"/>
+    <link rel="stylesheet" href="../css/style.css"/>
+    
     <link rel="icon" type="image/png" href="../src/image.png" />
 
 </head>
 <body>
+
+    <asp:ContentPlaceHolder ID="sidebar" runat="server">
+
+    </asp:ContentPlaceHolder>
+
+    <asp:ContentPlaceHolder ID="body" runat="server">
+
+    </asp:ContentPlaceHolder>
     
-    <div>
-
-        <section id="cuerpo">
-
-        </section>
-
-         <aside id="columna">
-
-         </aside>
-
-    </div>
+	<script src="../js/jquery-3.1.1.min.js"></script>
+	<script src="../js/sweetalert2.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/material.min.js"></script>
+	<script src="../js/ripples.min.js"></script>
+	<script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="../js/main.js"></script>
+    <script>
+        $.material.init();
+    </script>
 
 </body>
 </html>

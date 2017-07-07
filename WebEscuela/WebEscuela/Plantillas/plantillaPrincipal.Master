@@ -59,8 +59,8 @@
 
             <aside id="columna">
                 <div id="subcolumna">
-                      <blockquote><a href="#" class="button"><span class="icon-database"></span>Acceso Napzis</a></blockquote>
-                      <blockquote><a href="#" class="button"><span class="icon-user-tie"></span>Acceso Personal</a></blockquote>
+                      <blockquote><a href="../Login/LoginNa.aspx" class="button"><span class="icon-database"></span>Acceso Napzis</a></blockquote>
+                      <blockquote><a href="../Login/LoginPE.aspx" class="button"><span class="icon-user-tie"></span>Acceso Personal</a></blockquote>
                 </div>
                 
                 <div id="fb-root"></div>
